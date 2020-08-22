@@ -1,0 +1,26 @@
+/*C++ program on arithmetic operators( + , - , % ,x , / )*/
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a , b , add , substract , multiply ,divide , reminder ;
+    cout << "enter the numbers"<<endl;
+    cin >> a >> b ;
+    cout << "values of a and b is "<<a<<" and "<<b<<endl;
+    
+    add = a + b ;
+    substract = a - b ;
+    multiply =  a * b ;
+    divide = a / b;
+    reminder = a % b ;
+    
+    cout << "addition of a and b is " << add<<endl ;
+    cout << "substraction of a and b is "<< substract<<endl;
+    cout << "multiplication of a and b is "<< multiply<<endl;
+    cout << "division of a and b is "<< divide<<endl;
+    cout << "reminder of a and b is "<< reminder<<endl;
+    
+    return 0;
+}
